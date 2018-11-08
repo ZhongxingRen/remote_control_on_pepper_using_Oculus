@@ -1,6 +1,6 @@
 import cv2
 import numpy
-cap = cv2.VideoCapture("rtsp://192.168.3.53:6554/stream_0")
+cap = cv2.VideoCapture("rtsp://192.168.3.53:6554/stream_0")#use wireshark to find out the video stream
 print cap.isOpened()
 frameNum = 1
 while(cap.isOpened()):
