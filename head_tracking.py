@@ -55,14 +55,14 @@ def main():
             motion_service.angleInterpolation(
                 ["HeadYaw"],
                 [p_yaw],
-                [0.3],######################################################时间
+                [0.3],#时间
                 True,
             )
             #motion_service.setStiffnesses("Head", 1.0)
             motion_service.angleInterpolation(
                 ["HeadPitch"],
                 [p_pitch],
-                [0.3],######################################################时间
+                [0.3],#时间
                 True,
             )
         except ValueError:
