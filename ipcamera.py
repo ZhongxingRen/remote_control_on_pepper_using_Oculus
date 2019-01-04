@@ -1,3 +1,4 @@
+#this python script is just for testing the ip camera placed on the head of the pepper.
 import cv2
 import numpy
 cap = cv2.VideoCapture("rtsp://192.168.3.53:6554/stream_0")#use wireshark to find out the video stream
